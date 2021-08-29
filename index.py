@@ -135,4 +135,4 @@ async def ban(ctx, member: nextcord.Member=None, *, reason=None):
 
     await ctx.send(embed=embed)
 
-bot.run('ODc5ODIyMTY1Nzk1NTQxMDAy.YSVUPg.mf9lM_k3BTcVg0jyT3KEB4lc71Y')
+bot.run('BOT_TOKEN')
