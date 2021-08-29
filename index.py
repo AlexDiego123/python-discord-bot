@@ -6,7 +6,7 @@ from nextcord.ext import commands
 intents = nextcord.Intents.default()
 intents.members = True
 
-bot = commands.Bot(command_prefix='franco!', intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 bot.remove_command('help')
 
